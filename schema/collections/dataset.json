@@ -224,7 +224,8 @@
           "title": "Metadata Context",
           "description": "IRI for the JSON-LD data type. This should be dcat:Distribution for each Distribution",
           "default": "dcat:Distribution",
-          "type": "string"
+          "type": "string",
+          "readOnly": true
         },
         "title": {
           "title": "Title",
