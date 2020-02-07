@@ -121,13 +121,13 @@
     },
     "spatial": {
       "title": "Spatial",
-      "description": "The range of spatial applicability of a dataset. Could include a spatial region like a bounding box or a named place.",
+      "description": "The <a href=\"https://project-open-data.cio.gov/v1.1/schema/#spatial\">spatial coverage</a> of the dataset. Could include a spatial region like a bounding box or a named place.",
       "type": "string",
       "minLength": 1
     },
     "temporal": {
       "title": "Temporal",
-      "description": "The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).",
+      "description": "The <a href=\"https://project-open-data.cio.gov/v1.1/schema/#temporal\">start and end dates</a> for which the dataset is applicable, separated by a \"/\" (i.e., 2000-01-15T00:45:00Z/2010-01-15T00:06:00Z).",
       "type": "string"
     },
     "isPartOf": {
@@ -244,18 +244,14 @@
           "type": "string",
           "minLength": 1
         },
-        "fileLocation": {
-          "title": " ",
-          "type": "string"
-        },
         "format": {
           "title": "Format",
-          "description": "A human-readable description of the file format of a distribution",
+          "description": "A human-readable description of the file format of a distribution (i.e. csv, pdf, xml, kml, etc.)",
           "type": "string"
         },
         "mediaType": {
           "title": "Media Type",
-          "description": "The machine-readable file format (IANA Media Type or MIME Type) of the distribution’s downloadURL",
+          "description": "The machine-readable file format (<a href=\"https://www.iana.org/assignments/media-types/media-types.xhtml\">IANA Media Type or MIME Type</a>) of the distribution’s downloadURL",
           "type": "string"
         },
         "mediaSize": {
@@ -323,7 +319,7 @@
         },
         "name": {
           "title": "Publisher Name",
-          "description": "A full formatted name, eg Firstname Lastname",
+          "description": "",
           "type": "string",
           "minLength": 1
         },
