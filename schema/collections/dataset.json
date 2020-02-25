@@ -152,7 +152,6 @@
         "type": "string",
         "minLength": 1
       },
-      "minItems": 1,
       "uniqueItems": true
     },
     "keyword": {
@@ -212,7 +211,7 @@
         },
         "hasEmail": {
           "title": "Email",
-          "description": "Email address for the contact",
+          "description": "Email address for the contact name (Include 'mailto:')",
           "pattern": "^mailto:[\\w\\_\\~\\!\\$\\&\\'\\(\\)\\*\\+\\,\\;\\=\\:.-]+@[\\w.-]+\\.[\\w.-]+?$",
           "type": "string"
         }
